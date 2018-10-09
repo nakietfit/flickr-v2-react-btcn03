@@ -1,0 +1,57 @@
+.info {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title {
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.owner_name {
+  font-size: 11px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.view {
+  display: flex;
+  align-items: center;
+}
+
+.far {
+  font-size: 12px;
+  margin-right: 4px;
+}
+
+/* Src: https://codepen.io/anon/pen/JmoOEE?editors=1100 */
+/* Name: Flex Justified Image Grid */
+
+.tracks {
+  background: #ddd;
+  padding: 5px 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.photo {
+  margin: 4px;
+  background-color: #efefef;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.photo:before {
+  content: "";
+  display: block;
+}

@@ -1,0 +1,14 @@
+.navbar-brand {
+    font-size: 48px;
+    font-weight: 900;
+    color: #fff !important;
+}
+
+.nav-link {
+    font-weight: 600;
+    color: #fff;
+}
+
+.btn {
+    font-weight: 600;
+}

@@ -1,0 +1,74 @@
+/* Src: https://tympanus.net/codrops/2014/06/19/ideas-for-subtle-hover-effects/ */
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+.effect-julia  {
+	-webkit-transition: opacity 1s, -webkit-transform 1s;
+	transition: opacity 1s, transform 1s;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.effect-julia .info {
+	text-align: left;
+}
+
+.effect-julia .view, 
+.effect-julia .title, 
+.effect-julia .owner_name {
+	margin: 0 0 0.25em;
+	padding: 0.4em 1em;
+	background: rgba(255,255,255,0.9);
+	color: #2f3238;
+	text-transform: none;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: translate3d(-360px,0,0);
+	transform: translate3d(-360px,0,0);
+}
+
+.effect-julia .title {
+	-webkit-transition-delay: 0.15s;
+	transition-delay: 0.15s;
+}
+
+.effect-julia .owner_name {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.effect-julia .view {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.effect-julia:hover .title {
+	-webkit-transition-delay: 0s;
+	transition-delay: 0s;
+}
+
+.effect-julia:hover .owner_name {
+	-webkit-transition-delay: 0.05s;
+	transition-delay: 0.05s;
+}
+
+.effect-julia:hover .view {
+	-webkit-transition-delay: 0.1s;
+	transition-delay: 0.1s;
+}
+
+.effect-julia:hover {
+	background-blend-mode: overlay;
+	-webkit-transform: scale3d(1.05,1.05,1);
+	transform: scale3d(1.05,1.05,1);
+}
+
+.effect-julia:hover .title, 
+.effect-julia:hover .owner_name, 
+.effect-julia:hover .view {
+	opacity: 1;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}

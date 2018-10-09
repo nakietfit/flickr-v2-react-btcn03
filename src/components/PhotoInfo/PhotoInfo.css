@@ -1,0 +1,90 @@
+.photo-info {
+    color: #212124;
+    margin-right: 60px;
+}
+
+.owner-icon  {
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+
+.photo-info-owner-name {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 24px 0 5px 78px;
+}
+
+.photo-info-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 10px 78px;
+}
+
+.description {
+    font-size: 14px;
+    margin-left: 78px;
+}
+
+.interaction-container {
+    border-bottom: 1px solid #cfd6d9;
+    border-top: 1px solid #cfd6d9;
+    margin: 15px 0 15px 78px;
+}
+
+.views, 
+.faves, 
+.comments {
+    margin: 15px 0;
+    font-size: 20px;
+    color: #006dac;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.views i, 
+.faves i, 
+.comments i,
+.datetaken i {
+    font-size: 24px;
+    color: #898989;
+    cursor: pointer;
+}
+
+.views p, 
+.faves p, 
+.comments p {
+    margin: 0;
+}
+
+.datetaken {
+    margin: 0 0 15px 78px;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.datetaken i {
+    margin: 0 12px 0 -36px;
+}
+
+.tags {
+    margin-left: 78px;
+    border-top: 1px solid #cfd6d9;
+}
+
+.tags p {
+    margin-top: 23px;
+    color: #006dac;
+    font-weight: 600;
+}
+
+.tag-btn {
+    margin: 0 5px 5px 0;
+    font-weight: 400;
+    border-radius: 30px;
+    color: #212124;
+}

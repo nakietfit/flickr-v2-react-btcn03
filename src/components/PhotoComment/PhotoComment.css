@@ -1,0 +1,31 @@
+.photo-comment-container {
+    margin: 24px 60px 0 0;
+}
+
+.photo-comment-container p {
+    color: #006dac;
+    font-weight: 600;
+}
+
+.photo-comment {
+    font-size: 14px;
+    margin-top: 5px;
+    padding: 5px 0;
+}
+
+.author-icon  {
+    border-radius: 100%;
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-top: 5px;
+}
+
+.author-name {
+    color: #006dac;
+    font-weight: 600;
+}
+
+.text {
+    margin-left: 52px;
+}
